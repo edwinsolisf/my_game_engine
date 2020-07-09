@@ -1,0 +1,19 @@
+﻿  OpenGL.cpp
+c:\dev\gameengine\includes\shader.h(19): warning C4251: 'GameEngine::Shader::_filePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+  d:\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\dev\gameengine\includes\shader.h(21): warning C4251: 'GameEngine::Shader::_uniformLocationCache': class 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  c:\dev\gameengine\includes\shader.h(21): note: see declaration of 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+c:\dev\gameengine\src\opengl.cpp(147): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\dev\gameengine\src\opengl.cpp(161): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  GameEngine.vcxproj -> C:\dev\GameEngine\bin\Debug-Win32\GameEngine\GameEngine.dll
+          1 file(s) copied.

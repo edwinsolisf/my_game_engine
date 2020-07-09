@@ -1,0 +1,98 @@
+﻿  Application.cpp
+  Lighting.cpp
+  Camera.cpp
+  gmath.cpp
+c:\dev\gameengine\src\gmath.cpp(135): warning C4838: conversion from 'double' to 'float' requires a narrowing conversion
+c:\dev\gameengine\src\gmath.cpp(132): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\dev\gameengine\src\gmath.cpp(133): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  OpenGL.cpp
+c:\dev\gameengine\includes\shader.h(19): warning C4251: 'GameEngine::Shader::_filePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+  d:\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\dev\gameengine\includes\shader.h(21): warning C4251: 'GameEngine::Shader::_uniformLocationCache': class 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  c:\dev\gameengine\includes\shader.h(21): note: see declaration of 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+c:\dev\gameengine\src\opengl.cpp(147): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+c:\dev\gameengine\src\opengl.cpp(161): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  Renderer.cpp
+c:\dev\gameengine\includes\shader.h(19): warning C4251: 'GameEngine::Shader::_filePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+  d:\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\dev\gameengine\includes\shader.h(21): warning C4251: 'GameEngine::Shader::_uniformLocationCache': class 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  c:\dev\gameengine\includes\shader.h(21): note: see declaration of 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  Shader.cpp
+c:\dev\gameengine\includes\shader.h(19): warning C4251: 'GameEngine::Shader::_filePath': class 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+  d:\microsoft visual studio\2017\community\vc\tools\msvc\14.16.27023\include\xstring(4373): note: see declaration of 'std::basic_string<char,std::char_traits<char>,std::allocator<char>>'
+c:\dev\gameengine\includes\shader.h(21): warning C4251: 'GameEngine::Shader::_uniformLocationCache': class 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>' needs to have dll-interface to be used by clients of class 'GameEngine::Shader'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  c:\dev\gameengine\includes\shader.h(21): note: see declaration of 'std::unordered_map<std::string,int,std::hash<_Kty>,std::equal_to<_Kty>,std::allocator<std::pair<const _Kty,_Ty>>>'
+          with
+          [
+              _Kty=std::string,
+              _Ty=int
+          ]
+  UserInput.cpp
+c:\dev\gameengine\src\userinput.cpp(24): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\dev\gameengine\src\userinput.cpp(27): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\dev\gameengine\src\userinput.cpp(28): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+c:\dev\gameengine\src\userinput.cpp(34): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+     Creating library C:\dev\GameEngine\bin\Release-Win32\GameEngine\GameEngine.lib and object C:\dev\GameEngine\bin\Release-Win32\GameEngine\GameEngine.exp
+LINK : warning LNK4098: defaultlib 'LIBCMT' conflicts with use of other libs; use /NODEFAULTLIB:library
+  Generating code
+  28 of 935 functions ( 3.0%) were compiled, the rest were copied from previous compilation.
+    6 functions were new in current compilation
+    48 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+IndexBuffer.obj : warning LNK4049: locally defined symbol ___glewDeleteBuffers imported
+IndexBuffer.obj : warning LNK4049: locally defined symbol ___glewGenBuffers imported
+IndexBuffer.obj : warning LNK4049: locally defined symbol ___glewBufferData imported
+IndexBuffer.obj : warning LNK4049: locally defined symbol ___glewBindBuffer imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewUniform4f imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewLinkProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewUniform3f imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramInfoLog imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewUniformMatrix4fv imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewShaderSource imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewDeleteProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewAttachShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetUniformLocation imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetProgramiv imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewValidateProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderInfoLog imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewUniform1i imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCreateProgram imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCreateShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewCompileShader imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewGetShaderiv imported
+Shader.obj : warning LNK4049: locally defined symbol ___glewUseProgram imported
+Texture.obj : warning LNK4049: locally defined symbol ___glewGenerateMipmap imported
+Texture.obj : warning LNK4049: locally defined symbol ___glewActiveTexture imported
+VertexArray.obj : warning LNK4049: locally defined symbol ___glewGenVertexArrays imported
+VertexArray.obj : warning LNK4049: locally defined symbol ___glewDeleteVertexArrays imported
+VertexArray.obj : warning LNK4049: locally defined symbol ___glewVertexAttribPointer imported
+VertexArray.obj : warning LNK4049: locally defined symbol ___glewBindVertexArray imported
+VertexArray.obj : warning LNK4049: locally defined symbol ___glewEnableVertexAttribArray imported
+glew32s.lib(glew.obj) : warning LNK4099: PDB 'vc120.pdb' was not found with 'glew32s.lib(glew.obj)' or at 'C:\dev\GameEngine\bin\Release-Win32\GameEngine\vc120.pdb'; linking object as if no debug info
+  GameEngine.vcxproj -> C:\dev\GameEngine\bin\Release-Win32\GameEngine\GameEngine.dll

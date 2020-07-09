@@ -1,0 +1,3 @@
+﻿  Application.cpp
+c:\dev\gameengine\includes\matrix.h(25): warning C4715: 'Matrix<3,3>::operator[]': not all control paths return a value
+  GameEngine.vcxproj -> C:\dev\GameEngine\Debug\GameEngine.exe
